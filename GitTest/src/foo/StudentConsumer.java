@@ -7,7 +7,11 @@ public class StudentConsumer {
 		s1.setName("Ion");
 		s1.setAge(24);
         System.out.println("hello "+ s1.getName()); 
+// <<<<<<< HEAD
         StudentConsumer.displayAge(s1);
+//=======
+        System.out.println("hello?");
+//>>>>>>> branch 'master' of https://github.com/diadin/workshop5.git
       //  System.out.println("hello");
 	}
 	
