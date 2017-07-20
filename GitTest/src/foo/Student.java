@@ -1,10 +1,10 @@
 package foo;
 
 public class Student {
- public int getAge() {
+ public long  getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	public void setAge(long age) {
 		this.age = age;
 	}
 	public String getName() {
@@ -13,6 +13,6 @@ public class Student {
 	public void setName(String name) {
 		this.name = name;
 	}
-private int age;
+private long age;
  private String name;
 }
